@@ -12,7 +12,6 @@ const folders = [
     "Quizz",
     "Slider",
     "Validation-form",
-    "WeatherApp",
     "WikiApp"
 ];
 
