@@ -12,7 +12,7 @@ const folders = [
     "Quizz",
     "Slider",
     "Validation-form",
-    "WikiApp"
+    "WikiApp",
 ];
 
 folders.forEach((element) => {
