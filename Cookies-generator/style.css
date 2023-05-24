@@ -78,6 +78,7 @@ form button {
     padding: 10px;
     border-radius: 5px;
     background: #fff;
+    color: black;
     position: relative;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
