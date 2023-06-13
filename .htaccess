@@ -1,0 +1,26 @@
+## Enable caching for static assets ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType text/css "access plus 1 year"
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType image/gif "access plus 1 year"
+ExpiresByType application/javascript "access plus 1 year"
+ExpiresByType application/x-javascript "access plus 1 year"
+ExpiresByType application/pdf "access plus 1 year"
+ExpiresByType application/vnd.ms-fontobject "access plus 1 year"
+ExpiresByType application/x-shockwave-flash "access plus 1 year"
+ExpiresByType application/x-font-ttf "access plus 1 year"
+ExpiresByType application/x-font-opentype "access plus 1 year"
+ExpiresByType application/vnd.ms-opentype "access plus 1 year"
+ExpiresByType application/json "access plus 1 year"
+ExpiresByType application/ld+json "access plus 1 year"
+ExpiresByType application/xml "access plus 1 year"
+ExpiresByType application/rss+xml "access plus 1 year"
+ExpiresByType application/atom+xml "access plus 1 year"
+ExpiresByType image/svg+xml "access plus 1 year"
+ExpiresByType font/truetype "access plus 1 year"
+ExpiresByType font/opentype "access plus 1 year"
+ExpiresByType font/woff "access plus 1 year"
+ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
